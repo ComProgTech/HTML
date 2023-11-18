@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #dbb2b2;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  background-color: #666;
+}
+/* styles.css */
+.course-card,
+.tutorial-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.course-card img,
+.tutorial-card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.course-card h3,
+.tutorial-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.course-card p,
+.tutorial-card p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.course-card a,
+.tutorial-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.course-card a:hover,
+.tutorial-card a:hover {
+  text-decoration: underline;
+}
+/* styles.css */
+/* ... (your existing CSS styles) */
+
+/* Testimonials Section */
+#testimonials {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Blog Section */
+#blog {
+  padding: 20px;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.blog-post h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Contact Us Section */
+#contact {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
